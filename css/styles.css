@@ -114,14 +114,20 @@ ul {
 }
 
 .list {
-    display: flex;
-    align-items: center;
+
     list-style: none;
     letter-spacing: 0.02em;
 }
 
 .address-list {
+    display: flex;
+    align-items: center;
     gap: 40px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center; 
 }
 
 .item-link {
@@ -198,8 +204,24 @@ line-height: 1.5;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-bottom: 8px;
 }
 
+.features-list {
+    display: flex;
+    width: 1128px;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.features-item {
+    width: 264px;
+   
+}
+
+.feature-text {
+  
+}
 
   /* OUR WORK */
    .our-work.title{
