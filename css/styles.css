@@ -15,7 +15,7 @@
 /* BASE STYLES */
 
 .container {
-    width: 1188px;
+    width: 1396px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -54,6 +54,11 @@ ul {
 
 
 .header {
+
+}
+
+.navigation {
+    display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -120,7 +125,12 @@ ul {
     list-style: none;
     letter-spacing: 0.02em;
     gap: 24px;
+    justify-content: center;
 }
+
+
+
+     /*HEADER*/
 
 .address-list {
     display: flex;
@@ -145,7 +155,7 @@ ul {
 }
 
 .navigation {
-    display: flex; 
+     
 }
 
 .header-logo {
@@ -157,7 +167,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-left: 156px;
+    margin-left: 72px;
 }
 .header-logo-studio {
     margin-right: 76px;
@@ -240,27 +250,35 @@ color: #2E2F42;
 
    }
 
+
+  .doing-container {
+  
+  }
+
    .our-work {
     display: flex;
-    gap: 24px;
+
+    
+    
+
    }
 
    /* OUR TEAM*/
 .our_team {
+    
+   
     padding-bottom: 120px;
     background-color: #F4F4FD;
 }
 
-team.container {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    justify-content: space-between;
-}
+.team-container {
 
+
+}
 .team-list {
     display: flex;
-
+    justify-content: space-evenly;
+    gap: 24px;
 }
 
 .team-item {
@@ -298,14 +316,16 @@ text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-left: 156px;
+    margin-left: 72px;
    }
 
 
    /*PORTFOLIO*/
+
  
 
 .portfolio-btn {
+    padding: 12px 24px;
 font-weight: 500;
 background-color:#F4F4FD;
 text-align: center;
@@ -320,11 +340,40 @@ color: #4D5AE5
     color: #FFFFFF;
 }
 
-
+.nav-list-buttons {
+    display: flex;
+    margin-top: 96px;
+    margin-bottom: 72px;
+    
+}
 .photo-title {
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
     color: #2E2F42; 
+}
+
+.portfolio-photos {
+    justify-content: space-evenly;
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+margin-bottom: 48px;
+}
+
+.img {
+    margin-bottom: 32px;
+}
+
+.portfolio-text {
+    text-align: center;
+}
+
+.photo-item {
+
+}
+ 
+.photo-item:nth-child(3n) {
+    margin-right: 0;
 }
