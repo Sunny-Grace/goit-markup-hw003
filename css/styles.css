@@ -1,0 +1,274 @@
+:root { 
+    /*Fonts*/
+    --primary-font:  'Roboto', sans-serif;
+    /*Other*/
+    --accent-color: #E7E9FC;
+    
+}
+
+*,
+*::before 
+*::after {
+    box-sizing: border-box;
+}
+
+/* BASE STYLES */
+
+.container {
+    width: 1188px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+ 
+
+    outline: 2px solid red; 
+    outline-offset: -2px;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+background-color: #ffffff;
+color: #434455;
+}
+
+
+/* Reset */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    }
+
+ .text {
+    letter-spacing: 0.02em;
+    color: #434455;
+      }
+
+
+
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+
+.link {
+    display:flex;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    }
+    
+ .link:hover,
+ .link:focus {
+    color: #404bbf;
+ }   
+
+ .nav {
+    margin-right: 40px;
+    color: #2e2f42 ;
+    
+ }
+ .address {
+    
+    font-style: normal;
+    color: #434455;
+    font-weight: 400;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    letter-spacing: 0.02em;
+}
+
+.address-list {
+    gap: 40px;
+}
+
+.item-link {
+    margin-right: 40px;
+}
+.header-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex; 
+}
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.header-logo-studio {
+    margin-right: 76px;
+    color: #2E2F42;
+}
+
+.hero {
+    padding-top: 188px;
+    padding-bottom: 292px;
+    margin-bottom: 60px;
+    background-color: #2E2F42;
+}
+
+.hero-title {font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+line-height: 1.07;
+}
+
+
+.hero-btn{
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+color: #ffffff;
+font-weight: 500;
+letter-spacing: 0.04em;
+line-height: 1.5;
+}
+
+ .hero-btn:hover,
+ .hero-btn:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+ }
+
+
+ /* FEATURES SECTION */
+
+.features { 
+    background-color: blueviolet;
+    
+}
+ .feature-title {
+    font-size: 20px;
+    font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+
+  /* OUR WORK */
+   .our-work.title{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+   }
+
+   /* OUR TEAM*/
+.our_team {
+    padding-bottom: 120px;
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+   .title-name {
+    font-size: 20px;
+    font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+   }
+
+
+   /*FOOTER*/
+   .footer {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    background: #2E2F42;
+   }
+   .footer-logo-studio {
+    color: #F4F4FD;
+   }
+   .footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   }
+
+
+   /*PORTFOLIO*/
+ 
+
+.portfolio-btn {
+font-weight: 500;
+background-color:#F4F4FD;
+text-align: center;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+
+.photo-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+    color: #2E2F42; 
+}
