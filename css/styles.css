@@ -22,8 +22,7 @@
 .container {
     width: 1158px;
   margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px 0 15px;
  
 }
 
@@ -59,6 +58,10 @@ ul {
     padding-top: 24px;
     padding-bottom: 24px;
     align-items: center;
+   
+}
+    .last {
+    margin-right: 0 
 }
 
 .section {
@@ -110,7 +113,7 @@ ul {
  }   
 
  .nav {
-    margin-right: 10px;
+   
     color: #2e2f42 ;
     
  }
@@ -146,6 +149,8 @@ ul {
 .nav-list {
     display: flex;
     align-items: center;
+    gap: 40px;
+    padding: 24px 0 24px;
    
 }
 
@@ -281,9 +286,6 @@ color: #2E2F42;
 
    .our-work {
     display: flex;
-
-    
-    
 
    }
 
