@@ -20,14 +20,11 @@
 /* BASE STYLES */
 
 .container {
-    width: 1396px;
+    width: 1158px;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
  
-
-    outline: 2px solid red; 
-    outline-offset: -2px;
 }
 
 body {
@@ -163,7 +160,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-left: 72px;
+
 }
 .header-logo-studio {
     margin-right: 76px;
@@ -171,21 +168,31 @@ ul {
 }
 
 .hero {
+
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     margin-bottom: 60px;
     background-color: #2E2F42;
 }
 
-.hero-title {font-size: 56px;
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+
+    font-size: 56px;
     width: 496px;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-line-height: 1.07;
-text-align: center;
-margin-left: 472px;
+    line-height: 1.07;
+
+
 }
 
 
@@ -199,7 +206,7 @@ font-weight: 500;
 letter-spacing: 0.04em;
 line-height: 1.5;
 margin-top: 48px;
-margin-left: 635px;
+
 }
 
  .hero-btn:hover,
@@ -212,7 +219,7 @@ margin-left: 635px;
  /* FEATURES SECTION */
 
 .features { 
-    background-color: blueviolet;
+   
     
 }
  .feature-title {
@@ -304,8 +311,8 @@ text-align: center;
 
    /*FOOTER*/
    .footer {
-    padding-top: 156px;
-    padding-bottom: 156px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background: #2E2F42;
    }
    .footer-logo-studio {
@@ -318,7 +325,6 @@ text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-left: 72px;
    }
 
 
@@ -378,16 +384,17 @@ letter-spacing: 0.02em;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-right: 156px;
-    margin-left: 156px;
+
 }
 
 .portfolio-card {
     width: calc((100% - 2 * 24px) / 3);
+    padding-bottom: 48px;
 }
 
 
 .portfolio-card-content {
+    width: 360px;
 padding: 32px 16px;
 border: 1px solid var(--cornflower, #E7E9FC);
 background: #FFF;
