@@ -354,26 +354,31 @@ letter-spacing: 0.02em;
     color: #2E2F42; 
 }
 
-.portfolio-photos {
-    justify-content: space-evenly;
-    gap: 24px;
-    display: flex;
-    flex-wrap: wrap;
-margin-bottom: 48px;
-}
 
-.img {
-    margin-bottom: 32px;
+
+.portfolio-link {
+  text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    cursor: pointer;  
 }
 
 .portfolio-text {
-    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455; 
+}
+.portfolio-photos {
+
+
+   
 }
 
-.photo-item {
 
+
+.portfolio-card-content {
+padding: 32px 16px;
+border: 1px solid var(--cornflower, #E7E9FC);
+background: #FFF;
+border-top: none;
 }
  
-.photo-item:nth-child(3n) {
-    margin-right: 0;
-}
