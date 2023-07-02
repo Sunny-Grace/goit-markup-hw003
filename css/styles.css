@@ -3,6 +3,11 @@
     --primary-font:  'Roboto', sans-serif;
     /*Other*/
     --accent-color: #E7E9FC;
+    /* FlexBox GRID */
+
+    --items:3
+    --indent: 24px;
+    
     
 }
 
@@ -17,8 +22,8 @@
 .container {
     width: 1396px;
   margin: 0 auto;
-  padding-left: 15px;
   padding-right: 15px;
+  padding-left: 15px;
  
 
     outline: 2px solid red; 
@@ -50,11 +55,6 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-
-.header {
-
 }
 
 .navigation {
@@ -154,10 +154,6 @@ ul {
     justify-content: space-between;
 }
 
-.navigation {
-     
-}
-
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -182,22 +178,28 @@ ul {
 }
 
 .hero-title {font-size: 56px;
+    width: 496px;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 line-height: 1.07;
+text-align: center;
+margin-left: 472px;
 }
 
 
 .hero-btn{
     padding: 16px 32px;
     border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
 color: #ffffff;
 font-weight: 500;
 letter-spacing: 0.04em;
 line-height: 1.5;
+margin-top: 48px;
+margin-left: 635px;
 }
 
  .hero-btn:hover,
@@ -325,6 +327,9 @@ text-align: center;
  
 
 .portfolio-btn {
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+
     padding: 12px 24px;
 font-weight: 500;
 background-color:#F4F4FD;
@@ -347,6 +352,7 @@ color: #4D5AE5
     
 }
 .photo-title {
+    margin-bottom: 8px;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -367,12 +373,18 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     color: #434455; 
 }
-.portfolio-photos {
 
-
-   
+.portfolio-card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-right: 156px;
+    margin-left: 156px;
 }
 
+.portfolio-card {
+    width: calc((100% - 2 * 24px) / 3);
+}
 
 
 .portfolio-card-content {
@@ -382,3 +394,6 @@ background: #FFF;
 border-top: none;
 }
  
+.photo-section {
+    padding-bottom: 120px;
+}
