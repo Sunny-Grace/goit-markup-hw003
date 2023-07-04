@@ -4,10 +4,7 @@
     /*Other*/
     --accent-color: #E7E9FC;
     /* FlexBox GRID */
-
     --items:3
-    --indent: 24px;
-    
     
 }
 
@@ -15,14 +12,20 @@
 *::before 
 *::after {
     box-sizing: border-box;
+
 }
+
+    .img {
+        display: block;
+    }
 
 /* BASE STYLES */
 
 .container {
     width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
  
 }
 
@@ -80,9 +83,7 @@ ul {
     margin-bottom: 72px;
     }
 
-    .img {
-        display: block;
-    }
+
  .text {
     letter-spacing: 0.02em;
     color: #434455;
@@ -132,12 +133,16 @@ ul {
     justify-content: center;
 }
 
+.visually-hidden {
+    border: 0;
+    padding: 0;
+}
 
 
      /*HEADER*/
 
      .header {
-        border-bottom: 1px solid #e7e9fc
+        border-bottom: 1px solid #e7e9fc;
      }
 
 .address-list {
@@ -290,16 +295,11 @@ color: #2E2F42;
    }
 
    /* OUR TEAM*/
-.section-our_team {
+.section-our-team {
     
-    padding-top: 120;   
+    padding-top: 120px;   
     padding-bottom: 120px;
     background-color: #F4F4FD;
-}
-
-.team-container {
-    
-
 }
 
 
@@ -358,6 +358,7 @@ margin-bottom: 8px;
    .footer-logo-studio {
     color: #F4F4FD;
     margin-bottom: 16px;
+    display: inline-block;
 
    }
    .footer-text {
