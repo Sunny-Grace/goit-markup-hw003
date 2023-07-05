@@ -15,9 +15,7 @@
 
 }
 
-    .img {
-        display: block;
-    }
+
 
 /* BASE STYLES */
 
@@ -28,6 +26,10 @@
   padding-right: 15px;
  
 }
+
+.card-img {
+        display: block;
+    }
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -101,7 +103,7 @@ ul {
 
 
 .link {
-    display:flex;
+    
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -114,10 +116,11 @@ ul {
  }   
 
  .nav {
-   
+    padding: 24px 0 24px;
     color: #2e2f42 ;
     
  }
+
  .address {
     
     font-style: normal;
@@ -134,8 +137,16 @@ ul {
 }
 
 .visually-hidden {
-    border: 0;
-    padding: 0;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 
@@ -167,8 +178,7 @@ ul {
     gap: 40px;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-right: 24px;
+    padding: 0 15px 0 15px;
 }
 
 .header-logo {
@@ -180,7 +190,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+    
     color: #4D5AE5;
 
 }
