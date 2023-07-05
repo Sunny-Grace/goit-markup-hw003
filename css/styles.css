@@ -190,7 +190,7 @@ overflow: hidden;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    margin-right: 76px;
     color: #4D5AE5;
 
 }
@@ -380,7 +380,10 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     width: 264px;
    }
-
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
    /*PORTFOLIO*/
 
