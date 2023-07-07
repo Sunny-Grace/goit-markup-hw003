@@ -113,7 +113,8 @@ ul {
  }   
 
  .nav {
-    color: #2e2f42 ;
+    color: #2e2f42;
+    padding: 24px 0 24px;
     
  }
 
@@ -197,8 +198,8 @@ overflow: hidden;
 
 .hero {
 
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-color: #2E2F42;
 }
 
@@ -381,6 +382,7 @@ margin-bottom: 8px;
    /*PORTFOLIO*/
 
    .photo-section {
+    padding: 96px 0 120px 0;
 }
 
 
@@ -442,7 +444,6 @@ letter-spacing: 0.32px;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    margin-bottom: 120px;
 
 }
 
